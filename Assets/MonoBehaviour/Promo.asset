@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: Promo
+  m_EditorClassIdentifier:
+  m_name: Promo
+  m_parentA: 12
+  m_parentB: 12
+  m_tribeSet: 1
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: 65699d307c9521f459eb0d54ad8909c6, type: 2}
+    - {fileID: 11400000, guid: 36d8cf093f751164380ec18cc52d69ba, type: 2}
+    - {fileID: 11400000, guid: f91087d84a299a3468dca22c794209e6, type: 2}
+    - {fileID: 11400000, guid: 040494ab0d7dc7442aeeee131c17307c, type: 2}
+    - {fileID: 11400000, guid: 7230e3e68189d704b8792e69a5a964f0, type: 2}
+    - {fileID: 11400000, guid: e18f9a23e0e7bb5428ce4b787e1d55be, type: 2}
+    - {fileID: 11400000, guid: c987d0b842be2664a837fce9d2c86276, type: 2}
+    - {fileID: 11400000, guid: 024c48a362ebf0b4cabff5bd46a364b9, type: 2}
+    - {fileID: 11400000, guid: ead76844676e98f4093e18b5c8591c76, type: 2}
+    - {fileID: 11400000, guid: f81b4416f586b4644a203a5c68208412, type: 2}
+    - {fileID: 11400000, guid: 3112d646dbab031438fdbc7e95e7f924, type: 2}
+    - {fileID: 11400000, guid: 04cd3058f768b194d8d5dc1da15ea520, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

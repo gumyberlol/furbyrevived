@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: SpringStar-SpringRainbow
+  m_EditorClassIdentifier:
+  m_name: SpringStar_SpringRainbow
+  m_parentA: 17
+  m_parentB: 18
+  m_tribeSet: 3
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: 49401ab5b5636044bb69c0e06c4d6bf8, type: 2}
+    - {fileID: 11400000, guid: 87b43cc5ce5326e4b819cdfc11b9156d, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 0fbd843115db4cc40af975d2b1d3167f, type: 2}
+    - {fileID: 11400000, guid: ae1b5be50f447cb46a4d58ddb25040fc, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: e2b956f316f7ad547982ba09548d85d3, type: 2}
+    - {fileID: 11400000, guid: dce0cd04e2391e94f9da69169763e277, type: 2}
+    - {fileID: 11400000, guid: 9a7e56989153bcb44a22c3210406d15d, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: da6d05e44c4fa7c4cbbad62a3f36a0f1, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

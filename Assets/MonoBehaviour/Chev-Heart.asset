@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: Chev-Heart
+  m_EditorClassIdentifier:
+  m_name: Chev-Heart
+  m_parentA: 11
+  m_parentB: 5
+  m_tribeSet: 0
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: 35adaad062d4fec448265be7a55b6c59, type: 2}
+    - {fileID: 11400000, guid: d28061e63a79e444dae3d0725e2203f4, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 95c3f399de35dfd48b5534cc5d6c6712, type: 2}
+    - {fileID: 11400000, guid: b5fd0900783fd50449a2752b5a3b422f, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 5c8fbe1026f8a2248bb14833ab6dd813, type: 2}
+    - {fileID: 11400000, guid: e90ae192ac534774fa17bdfa18b4d565, type: 2}
+    - {fileID: 11400000, guid: 6361b852e7be7234381ebf3c2e0f3bc6, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 9f08633e6d878a642912f11515b70496, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

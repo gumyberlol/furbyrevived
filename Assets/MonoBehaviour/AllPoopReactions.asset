@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10e28ab2133a81d7f83ad1f7fda9e80, type: 3}
+  m_Name: AllPoopReactions
+  m_EditorClassIdentifier:
+  m_reactions:
+  - {fileID: 11400000, guid: f5e6575071d46f24982c8d3857bf3a89, type: 2}
+  - {fileID: 11400000, guid: 7772a1b183f063547a192a0d91bc9b85, type: 2}
+  - {fileID: 11400000, guid: 1f00fb812e4d04341859b0e8996a47f3, type: 2}
+  - {fileID: 11400000, guid: 46692197aa4c28b4abf37dd245d5c30a, type: 2}
+  - {fileID: 11400000, guid: 2b533924caf12ae4f973eebd415cf0f5, type: 2}

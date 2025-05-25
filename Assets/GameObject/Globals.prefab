@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1545031842952278
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4701126443672313}
+  - 114: {fileID: 114817980675341676}
+  - 114: {fileID: 114557783377918234}
+  - 114: {fileID: 114206319037021701}
+  - 114: {fileID: 114446944040308071}
+  m_Layer: 0
+  m_Name: Globals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701126443672313
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545031842952278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114817980675341676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545031842952278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726f7f56ff6d98f2820672d34662f79e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114557783377918234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545031842952278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c29813946aefec99dc1cbbe052a663, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114206319037021701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545031842952278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0c2fb47da216eb3f979dcf1ba0e2d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_prefabbedGlobals:
+  - {fileID: 1468693111240408, guid: d8c310bf62dae6640abfd7b441b70d96, type: 2}
+  - {fileID: 1313820127787771, guid: 7d18c8f00c530db4aafd559f51c2cd88, type: 2}
+  - {fileID: 1086907615850285, guid: de403086cc713704bb62312e28ce40c8, type: 2}
+  - {fileID: 1129691481417807, guid: 657b926e4edbe8a40955bb1fcdb755a7, type: 2}
+  - {fileID: 1471816156775722, guid: b86f0e7b387f19f4680d0a70ef8e99e0, type: 2}
+  - {fileID: 1253897318515917, guid: 44dcbe918bc881b4abd7a3704866c669, type: 2}
+  - {fileID: 1017149583233820, guid: a3eb6305f6a65014eb9392321fe15014, type: 2}
+  - {fileID: 1288717555304163, guid: a46cf5a37db6f6b43b8f3a2d00a26b46, type: 2}
+  - {fileID: 1015629863333819, guid: 92ffd72a2c6ba0443b570b810e93304f, type: 2}
+  - {fileID: 1069375203320414, guid: 1626c5ea95c235d4eba27749b9b1de60, type: 2}
+  - {fileID: 1360300714814194, guid: dcc4d7a8e089a374da89f105fbd9e26e, type: 2}
+  - {fileID: 1659324557245168, guid: f1ff4d6b8f8d862438c5e5bbfb091af6, type: 2}
+  - {fileID: 1626363996025618, guid: 651453490f3efbe47800cf6e131e89b9, type: 2}
+  - {fileID: 1966460321391584, guid: 75e97641f16d5dd4f87b6e96029bf7a1, type: 2}
+  - {fileID: 1996810693261563, guid: 6e3d6ad919ff67343b3173af251744b3, type: 2}
+  - {fileID: 1077513251141775, guid: 512711dc88fab4d4fa61d941df0b60c0, type: 2}
+  - {fileID: 1800944200523213, guid: f5dfe860e0006bf4d8c449f3844e4238, type: 2}
+  - {fileID: 1454821584137986, guid: 76e012fbdf212fa47a95821953d85c6c, type: 2}
+  - {fileID: 1613486740549129, guid: 7acc162c7316fc64bb0b1785700d6c70, type: 2}
+  - {fileID: 1922174200764835, guid: c8813d0931a4f1b48aabce0c4076d6f7, type: 2}
+  - {fileID: 1903134505620536, guid: 27c90994b8c668646818c52d68af781b, type: 2}
+  - {fileID: 1437123382013589, guid: 9d34ac54b02e5334a909ef1a2b036e55, type: 2}
+  - {fileID: 1007639303119639, guid: 9a75850f95ee5d645916e46742a54a1f, type: 2}
+  - {fileID: 1272622081176433, guid: 9c7f4b21aba9ced4585a0f486ddcbcfa, type: 2}
+  - {fileID: 1624873680897694, guid: 87bb7c9b8ded6ea4184e654bd8ed8d22, type: 2}
+  - {fileID: 1062430179503737, guid: a82e0ec6327f5cc4d98cb34ca26b01c5, type: 2}
+  - {fileID: 1780737502130988, guid: 89b2c8a7b429c5d4e8ce16f8fbabc0af, type: 2}
+  - {fileID: 1169105800113768, guid: 534ce4dd03b3f2442a8fc089591ce591, type: 2}
+  - {fileID: 1163105485345079, guid: 8ecdaf79dc72d1d4eb29e1aadae112cf, type: 2}
+  - {fileID: 1167593140151191, guid: 9490fa8df7a0d4a4cb52ad1489724d77, type: 2}
+  - {fileID: 1256315712802877, guid: 29f03b057d4db1243b2a2f9cc220a329, type: 2}
+  - {fileID: 1034947729407978, guid: acdf3c185e2a76942bc8a02d3e7be2b9, type: 2}
+  - {fileID: 1404149748630661, guid: 5694746b7c8a6c64f9bdba35f4348e8c, type: 2}
+  - {fileID: 1941008628178032, guid: c54a493588d09e14a8b857b1c39171e8, type: 2}
+  - {fileID: 1819310975924298, guid: 2ac775aedafb8774a8d0081924d1d7d9, type: 2}
+  - {fileID: 1554626656275360, guid: 3ba9047fb9dbdeb4ba0e76f20585de0a, type: 2}
+  - {fileID: 1952861216809675, guid: ec4d49812308dfe40a0ee7b7a51069d4, type: 2}
+  - {fileID: 1290140804849108, guid: bcf3967e206f68945b533220d37c6056, type: 2}
+  - {fileID: 1855741001097193, guid: 64d28e90f6b76ce4295323219554c17b, type: 2}
+  - {fileID: 1415545528118619, guid: 013b32351d38b594ca103cb437e43a4c, type: 2}
+  m_Dataset:
+    m_AdultLibraryPrefab: {fileID: 1115431012261540, guid: 1be99e4cac784b948803be1d03476da7, type: 2}
+    m_FurblingLibraryPrefab: {fileID: 1307622258771909, guid: 766ec9c930e7ded4fbba9cec3c758830, type: 2}
+--- !u!114 &114446944040308071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545031842952278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b28a4202cbd74f19e0afa79f9dd707e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1545031842952278}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: Wave-Stripe
+  m_EditorClassIdentifier:
+  m_name: Wave-Stripe
+  m_parentA: 10
+  m_parentB: 8
+  m_tribeSet: 0
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: 250a8f157ca02a946b20811abd486eda, type: 2}
+    - {fileID: 11400000, guid: 2c8fd9675d576d947a478a7465b7e945, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 8dc6a705229682141b97c81d97e3dfb6, type: 2}
+    - {fileID: 11400000, guid: 13e7eddd1082b9d41a186813a97d2244, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 90a5c21ff33ffcb4f92117b0d1e82bd7, type: 2}
+    - {fileID: 11400000, guid: f1ad802c9dba6854d8bad2e6938ee8ff, type: 2}
+    - {fileID: 11400000, guid: 51b399d796689004ca3d44be54074c88, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 1458c563f64aca3419eb6a6a06d84d2b, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

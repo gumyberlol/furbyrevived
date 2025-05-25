@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Diamonds
+  m_EditorClassIdentifier:
+  m_adultType: 4
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: ee87787c1e0fa414586ac54bbe489133, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyeColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EarColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyelidColor: {fileID: 11400000, guid: 210e634588d1ace43947d439b3affc35, type: 2}
+    FurbySpriteName: CH_furbyAdult_Diamonds
+  m_tribe: {fileID: 11400000, guid: 6e5f8be5a00134441ae1cf86d0152670, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 0400000001000000080000000a00000007000000020000000b000000050000000300000009000000000000000600000012000000110000001300000014000000100000000f00000015000000160000001800000017000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 2340629d0c2c509468a2dce68749d55e, type: 2}
+  - {fileID: 11400000, guid: df758816ab02b374dbed51aa68d77e65, type: 2}
+  - {fileID: 11400000, guid: f6590573e399ce543b1b08d721d950d9, type: 2}
+  - {fileID: 11400000, guid: 39b896ed077245d47be6e57daecb8588, type: 2}
+  - {fileID: 11400000, guid: 5a57ff40fec96c449a6474a4226d7248, type: 2}
+  - {fileID: 11400000, guid: b15c799e000421248a469110808506e1, type: 2}
+  - {fileID: 11400000, guid: 89752529297c9b34090be8cd12e73d57, type: 2}
+  - {fileID: 11400000, guid: 0406fec68098bea4089d3ac59ce6eb48, type: 2}
+  m_maxFurbyBabiesOfType: 5

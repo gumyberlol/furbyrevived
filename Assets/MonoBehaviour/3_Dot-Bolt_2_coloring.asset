@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 3_Dot-Bolt_2_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: 3e81a63960e82324ea7fb78218aee9a0, type: 3}
+  EggTexture: {fileID: 2800000, guid: 28ab8e738bb5dae428f4a7d0d98a7ae0, type: 3}
+  BitsTexture: {fileID: 2800000, guid: e7ff71af11fd1104f858a0e87d042af6, type: 3}
+  tilingX: 1
+  tilingY: 1

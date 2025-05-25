@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PROP_balloon03_MAT
+  m_Shader: {fileID: 4800000, guid: f5bd0036f1e113f40bc9a15c45d31554, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: e2df3e7f3d2580f4787384af71865067, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CubeTex
+      second:
+        m_Texture: {fileID: 8900000, guid: 1390c803a04973447a214a8190c4c70e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp2D
+      second:
+        m_Texture: {fileID: 2800000, guid: b7d33a8e5a99cdd4c8617bd2d76486f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 0.7
+    - first:
+        name: _WiggleStrength
+      second: 0.048076924
+    - first:
+        name: _NumAtlasesX
+      second: 1
+    - first:
+        name: _Gloss
+      second: 0.06
+    - first:
+        name: _Specular
+      second: 1
+    - first:
+        name: _AnisoOffset
+      second: -0.2
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0, g: 0.95804214, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.43305862, g: 0.53731346, b: 0.53293914, a: 0.5019608}
+    - first:
+        name: _SpecularHighlightColor
+      second: {r: 0.86567163, g: 1, b: 0.9837625, a: 1}

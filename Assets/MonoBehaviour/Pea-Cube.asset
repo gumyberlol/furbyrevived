@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: Pea-Cube
+  m_EditorClassIdentifier:
+  m_name: Pea-Cube
+  m_parentA: 10
+  m_parentB: 8
+  m_tribeSet: 0
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: a11de5d349eb5ab419103370b2689751, type: 2}
+    - {fileID: 11400000, guid: ae69b2a5e77d71c4ca18ce2029ff68c9, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 7af8199994804b34a967fca0aeb0d719, type: 2}
+    - {fileID: 11400000, guid: 46384cc1ecf7db54ba48b4c2dc543deb, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 7c832989851d2784fa0e3ccc4d3b0129, type: 2}
+    - {fileID: 11400000, guid: 8ca16ada4d1832f46b6464e79284397f, type: 2}
+    - {fileID: 11400000, guid: 76b7a111cabe50e49ae4470a50396d54, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 4f94e9cba8b6a7242a1aa5770535c888, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

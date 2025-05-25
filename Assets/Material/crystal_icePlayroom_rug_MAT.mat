@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: crystal_icePlayroom_rug_MAT
+  m_Shader: {fileID: 4800000, guid: 5582d7b34790d2c47b790b6fa9c9315b, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 524d31d9614fdef4d973264d42498190, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 2ee96b582fbdaea4692ea9a877198fd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Shininess
+      second: 0.02520514
+    - first:
+        name: _Specular
+      second: 1
+    - first:
+        name: _Gloss
+      second: 0.06
+    - first:
+        name: _AnisoOffset
+      second: -0.2
+    - first:
+        name: _NumAtlasesX
+      second: 1
+    - first:
+        name: _AtlasIndex
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _SpecularHighlightColor
+      second: {r: 1, g: 1, b: 1, a: 1}

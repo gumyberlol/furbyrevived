@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Waves
+  m_EditorClassIdentifier:
+  m_adultType: 10
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: b57074039fdf003418fa0af0c2c43d22, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyeColor: {fileID: 11400000, guid: 1cafb43b4cd634543b21e2f4aea5aa7e, type: 2}
+    EarColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyelidColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    FurbySpriteName: CH_furbyAdult_Waves
+  m_tribe: {fileID: 11400000, guid: 6c5374b65c03f374c8e67edd16f3a2f4, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 0a0000000800000007000000020000000000000006000000050000000b00000003000000090000000100000004000000100000000f0000001100000012000000140000001300000016000000150000001700000018000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 250a8f157ca02a946b20811abd486eda, type: 2}
+  - {fileID: 11400000, guid: 2c8fd9675d576d947a478a7465b7e945, type: 2}
+  - {fileID: 11400000, guid: 13e7eddd1082b9d41a186813a97d2244, type: 2}
+  - {fileID: 11400000, guid: 8dc6a705229682141b97c81d97e3dfb6, type: 2}
+  - {fileID: 11400000, guid: 90a5c21ff33ffcb4f92117b0d1e82bd7, type: 2}
+  - {fileID: 11400000, guid: f1ad802c9dba6854d8bad2e6938ee8ff, type: 2}
+  - {fileID: 11400000, guid: 51b399d796689004ca3d44be54074c88, type: 2}
+  - {fileID: 11400000, guid: 1458c563f64aca3419eb6a6a06d84d2b, type: 2}
+  m_maxFurbyBabiesOfType: 5

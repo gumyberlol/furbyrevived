@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf462760c8ecb660b0319b58a020edb9, type: 3}
+  m_Name: FurbyTribeList_WithSpringAndCrystal
+  m_EditorClassIdentifier:
+  m_tribes:
+  - {fileID: 11400000, guid: 6c5374b65c03f374c8e67edd16f3a2f4, type: 2}
+  - {fileID: 11400000, guid: fa46b10739e220140ae342b2748ecb8a, type: 2}
+  - {fileID: 11400000, guid: f9ceb5ca61ed3ef46b2e544fa14749df, type: 2}
+  - {fileID: 11400000, guid: f7323188141316a49b973fc8a7646eab, type: 2}
+  - {fileID: 11400000, guid: f22c14214625b8c4187abf72e6411b77, type: 2}
+  - {fileID: 11400000, guid: 6e5f8be5a00134441ae1cf86d0152670, type: 2}
+  - {fileID: 11400000, guid: 6d04dccf3d47ac4429eda969009bdba7, type: 2}
+  - {fileID: 11400000, guid: 91c284da23ad9074697308ba3e01202a, type: 2}
+  - {fileID: 11400000, guid: 8f0660cd9e674d244a61959d3c28b1b7, type: 2}
+  - {fileID: 11400000, guid: 542422667e691d240a2863ffbdfbe2a1, type: 2}
+  - {fileID: 11400000, guid: 23fb046b8ff9bd341b6694656270010d, type: 2}
+  - {fileID: 11400000, guid: 44132f2fd0146af4d89cabd450b39c79, type: 2}
+  - {fileID: 11400000, guid: 45b105e7e1db3e84eb00c5e6b6d1ca55, type: 2}
+  - {fileID: 11400000, guid: f887444ef3f413d4e97989ba7b5c2a06, type: 2}
+  - {fileID: 11400000, guid: 57939a5061595164d9a96e420adfb2df, type: 2}
+  m_LastIndex_MainTribes: 7
+  m_LastIndex_Spring: 10
+  m_LastIndex_Crystal: 14

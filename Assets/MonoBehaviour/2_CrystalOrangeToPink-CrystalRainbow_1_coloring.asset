@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 2_CrystalOrangeToPink-CrystalRainbow_1_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: a1f3384d9ffa79349888167bcf97a857, type: 3}
+  EggTexture: {fileID: 2800000, guid: ef85d3a065e5e8649b86953dd3767683, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 76968c8afcd6f464384bc9a671fbec68, type: 3}
+  tilingX: 1
+  tilingY: 1

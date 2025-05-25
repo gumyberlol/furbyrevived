@@ -1,0 +1,1844 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1531709653269105
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4949662236038961}
+  - 114: {fileID: 114145222012825159}
+  m_Layer: 24
+  m_Name: THM_season_Halloween_hood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1959152463263941
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4492462866793819}
+  - 114: {fileID: 114000915784572353}
+  m_Layer: 24
+  m_Name: BackgroundOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1192965421308876
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4801106964914675}
+  - 114: {fileID: 114894118543551090}
+  m_Layer: 24
+  m_Name: HauntedHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1197099372244972
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4754721152960013}
+  m_Layer: 24
+  m_Name: arrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1930861044429013
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4683217294889474}
+  - 114: {fileID: 114711595342771543}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1512644044773152
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4559614245917362}
+  - 114: {fileID: 114271172990319101}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1212599536770921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4575215894527695}
+  - 114: {fileID: 114598048660330234}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1032405574188731
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4019010578641049}
+  - 114: {fileID: 114272756710530680}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1819575870485559
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4873622738071950}
+  m_Layer: 24
+  m_Name: arrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1593397604732552
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4951471951872305}
+  - 114: {fileID: 114621248189903333}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1522630129514582
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4960179007853951}
+  - 114: {fileID: 114136734671403917}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1794732268622079
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4935160790522344}
+  - 114: {fileID: 114211353050148184}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1530193699066769
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4383393893731297}
+  - 114: {fileID: 114815103053244351}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1050642120322230
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4741101853111578}
+  m_Layer: 24
+  m_Name: arrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1876471621404345
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4311653419503009}
+  - 114: {fileID: 114715778983055836}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1280532007331566
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4945063905423363}
+  - 114: {fileID: 114455971816519543}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1116087933642919
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4192235575567076}
+  - 114: {fileID: 114011838596923070}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1452275906452894
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4700963371087619}
+  - 114: {fileID: 114461061605855234}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1947955306136559
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4186000471063227}
+  m_Layer: 24
+  m_Name: arrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1817996532066836
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4842381368075098}
+  - 114: {fileID: 114956055242444623}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1734267324940909
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4117438681653592}
+  - 114: {fileID: 114229253329574676}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1425666407867894
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4772522574743463}
+  - 114: {fileID: 114905455556261207}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1717007108518208
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4110739011928306}
+  - 114: {fileID: 114470885650183652}
+  m_Layer: 24
+  m_Name: arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1354059798067628
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4735246219865043}
+  - 114: {fileID: 114123293862552538}
+  m_Layer: 24
+  m_Name: houseWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1405250743631321
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4412056949565457}
+  - 114: {fileID: 114385144416566084}
+  m_Layer: 24
+  m_Name: houseWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1258558405520221
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4296895488277292}
+  - 114: {fileID: 114267515555285673}
+  m_Layer: 24
+  m_Name: roof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1900430005417101
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4876012726750393}
+  - 114: {fileID: 114162418199630436}
+  m_Layer: 24
+  m_Name: roof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1630127645585180
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4363738265891682}
+  - 114: {fileID: 114929880598204355}
+  m_Layer: 24
+  m_Name: roof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1286341838007501
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4082862925485493}
+  - 114: {fileID: 114994870811238781}
+  m_Layer: 24
+  m_Name: windowArch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1949724549655717
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4269999548410093}
+  - 114: {fileID: 114741474210687347}
+  m_Layer: 24
+  m_Name: roof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1433082274080570
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4586373366796245}
+  - 114: {fileID: 114749441831668480}
+  m_Layer: 24
+  m_Name: Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1161684479293641
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4901745490334646}
+  - 114: {fileID: 114474166548978862}
+  m_Layer: 24
+  m_Name: windowArch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1598016139153595
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4330943726542534}
+  - 114: {fileID: 114832014180360679}
+  m_Layer: 24
+  m_Name: windowArch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1183364046185099
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4429796985160197}
+  m_Layer: 24
+  m_Name: Web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1013007854838685
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4597662937873223}
+  - 114: {fileID: 114999235566802117}
+  m_Layer: 24
+  m_Name: Web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1268182541118358
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4512151352855310}
+  - 114: {fileID: 114147751808106111}
+  m_Layer: 24
+  m_Name: Web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1198477358740062
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4911190105036807}
+  - 114: {fileID: 114635667269467338}
+  m_Layer: 24
+  m_Name: Web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1944094375699176
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4908162432505355}
+  - 114: {fileID: 114498837908179774}
+  m_Layer: 24
+  m_Name: Web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1934520762132547
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4160134469664073}
+  - 114: {fileID: 114001295042194816}
+  m_Layer: 24
+  m_Name: Moon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1031811044859376
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4957842707830257}
+  - 114: {fileID: 114265884712392281}
+  m_Layer: 24
+  m_Name: Wolf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949662236038961
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531709653269105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4492462866793819}
+  - {fileID: 4801106964914675}
+  - {fileID: 4429796985160197}
+  - {fileID: 4160134469664073}
+  - {fileID: 4957842707830257}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114145222012825159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531709653269105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  showInPanelTool: 1
+  generateNormals: 0
+  depthPass: 0
+  widgetsAreStatic: 0
+  mDebugInfo: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+--- !u!4 &4492462866793819
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1959152463263941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 17.798338}
+  m_LocalScale: {x: 865.14703, y: 1189.8865, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4949662236038961}
+  m_RootOrder: 0
+--- !u!114 &114000915784572353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1959152463263941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 0.38431373}
+  mPivot: 4
+  mDepth: -3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_sky
+  mGradient:
+    mGradient1: {r: 0.15431777, g: 0.07801687, b: 0.28676468, a: 1}
+    mGradient2: {r: 0.027249124, g: 0.080181204, b: 0.61764705, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4801106964914675
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192965421308876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -50.033936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4754721152960013}
+  - {fileID: 4873622738071950}
+  - {fileID: 4741101853111578}
+  - {fileID: 4186000471063227}
+  - {fileID: 4735246219865043}
+  - {fileID: 4412056949565457}
+  - {fileID: 4296895488277292}
+  - {fileID: 4876012726750393}
+  - {fileID: 4363738265891682}
+  - {fileID: 4082862925485493}
+  - {fileID: 4269999548410093}
+  - {fileID: 4586373366796245}
+  - {fileID: 4901745490334646}
+  - {fileID: 4330943726542534}
+  m_Father: {fileID: 4949662236038961}
+  m_RootOrder: 1
+--- !u!114 &114894118543551090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192965421308876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  showInPanelTool: 1
+  generateNormals: 0
+  depthPass: 0
+  widgetsAreStatic: 0
+  mDebugInfo: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+--- !u!4 &4754721152960013
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197099372244972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.81633, y: 85.54956, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4683217294889474}
+  - {fileID: 4559614245917362}
+  - {fileID: 4575215894527695}
+  - {fileID: 4019010578641049}
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 0
+--- !u!4 &4683217294889474
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930861044429013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.61029, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4754721152960013}
+  m_RootOrder: 0
+--- !u!114 &114711595342771543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930861044429013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4559614245917362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512644044773152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9926147, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4754721152960013}
+  m_RootOrder: 1
+--- !u!114 &114271172990319101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512644044773152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4575215894527695
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212599536770921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.348114, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4754721152960013}
+  m_RootOrder: 2
+--- !u!114 &114598048660330234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212599536770921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4019010578641049
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032405574188731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.519684, y: 0, z: 0}
+  m_LocalScale: {x: 14, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4754721152960013}
+  m_RootOrder: 3
+--- !u!114 &114272756710530680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032405574188731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4873622738071950
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819575870485559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -107.01964, y: 38.411594, z: 1.0002441}
+  m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
+  m_Children:
+  - {fileID: 4951471951872305}
+  - {fileID: 4960179007853951}
+  - {fileID: 4935160790522344}
+  - {fileID: 4383393893731297}
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 1
+--- !u!4 &4951471951872305
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593397604732552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.61029, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4873622738071950}
+  m_RootOrder: 0
+--- !u!114 &114621248189903333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593397604732552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4960179007853951
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522630129514582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9926147, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4873622738071950}
+  m_RootOrder: 1
+--- !u!114 &114136734671403917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522630129514582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4935160790522344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1794732268622079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.348114, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4873622738071950}
+  m_RootOrder: 2
+--- !u!114 &114211353050148184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1794732268622079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4383393893731297
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1530193699066769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.519684, y: 0, z: 0}
+  m_LocalScale: {x: 14, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4873622738071950}
+  m_RootOrder: 3
+--- !u!114 &114815103053244351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1530193699066769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4741101853111578
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050642120322230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -301.22888, y: -72.83475, z: 1.0002441}
+  m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
+  m_Children:
+  - {fileID: 4311653419503009}
+  - {fileID: 4945063905423363}
+  - {fileID: 4192235575567076}
+  - {fileID: 4700963371087619}
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 2
+--- !u!4 &4311653419503009
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876471621404345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.61029, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4741101853111578}
+  m_RootOrder: 0
+--- !u!114 &114715778983055836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876471621404345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4945063905423363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280532007331566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9926147, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4741101853111578}
+  m_RootOrder: 1
+--- !u!114 &114455971816519543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280532007331566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4192235575567076
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1116087933642919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.348114, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4741101853111578}
+  m_RootOrder: 2
+--- !u!114 &114011838596923070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1116087933642919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4700963371087619
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452275906452894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.519684, y: 0, z: 0}
+  m_LocalScale: {x: 14, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4741101853111578}
+  m_RootOrder: 3
+--- !u!114 &114461061605855234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452275906452894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4186000471063227
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947955306136559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 285.17053, y: -199.16518, z: 1.0002441}
+  m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
+  m_Children:
+  - {fileID: 4842381368075098}
+  - {fileID: 4117438681653592}
+  - {fileID: 4772522574743463}
+  - {fileID: 4110739011928306}
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 3
+--- !u!4 &4842381368075098
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817996532066836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.61029, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4186000471063227}
+  m_RootOrder: 0
+--- !u!114 &114956055242444623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817996532066836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4117438681653592
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734267324940909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9926147, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4186000471063227}
+  m_RootOrder: 1
+--- !u!114 &114229253329574676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734267324940909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4772522574743463
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1425666407867894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.348114, y: 0, z: 0}
+  m_LocalScale: {x: 14.000128, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4186000471063227}
+  m_RootOrder: 2
+--- !u!114 &114905455556261207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1425666407867894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4110739011928306
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717007108518208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.519684, y: 0, z: 0}
+  m_LocalScale: {x: 14, y: 56, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4186000471063227}
+  m_RootOrder: 3
+--- !u!114 &114470885650183652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717007108518208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 1
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoofArrow
+--- !u!4 &4735246219865043
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1354059798067628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -362, z: 0}
+  m_LocalScale: {x: 649.99756, y: 279.58572, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 4
+--- !u!114 &114123293862552538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1354059798067628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: -3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_sky
+  mGradient:
+    mGradient1: {r: 0.09558821, g: 0, b: 0, a: 1}
+    mGradient2: {r: 0.24595068, g: 0.210532, b: 0.43382353, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4412056949565457
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405250743631321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00021076202, y: -165.24767, z: -0.00024414062}
+  m_LocalScale: {x: 430.62323, y: 122.31888, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 5
+--- !u!114 &114385144416566084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405250743631321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: -4
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_sky
+  mGradient:
+    mGradient1: {r: 0.09558821, g: 0, b: 0, a: 1}
+    mGradient2: {r: 0.24595068, g: 0.210532, b: 0.43382353, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4296895488277292
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258558405520221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -276.71243, y: -166.78606, z: -0.00024414062}
+  m_LocalScale: {x: 179.04062, y: 150.31277, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 6
+--- !u!114 &114267515555285673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258558405520221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoof
+  mGradient:
+    mGradient1: {r: 0.09803922, g: 0.007843138, b: 0.011764706, a: 1}
+    mGradient2: {r: 0.14117648, g: 0.06666667, b: 0.14117648, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4876012726750393
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900430005417101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -117.34314, y: -42.831738, z: -0.00024414062}
+  m_LocalScale: {x: 179.04077, y: 122.12922, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 7
+--- !u!114 &114162418199630436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900430005417101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoof
+  mGradient:
+    mGradient1: {r: 0.09803922, g: 0.007843138, b: 0.011764706, a: 1}
+    mGradient2: {r: 0.14117648, g: 0.06666667, b: 0.14117648, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4363738265891682
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630127645585180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.92244, y: -23.15649, z: -0.00024414062}
+  m_LocalScale: {x: 179.04077, y: 170.98117, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 8
+--- !u!114 &114929880598204355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630127645585180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoof
+  mGradient:
+    mGradient1: {r: 0.09803922, g: 0.007843138, b: 0.011764706, a: 1}
+    mGradient2: {r: 0.14117648, g: 0.06666667, b: 0.14117648, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4082862925485493
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286341838007501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.772675, y: -293.66125, z: 0}
+  m_LocalScale: {x: 34.833717, y: 64.994644, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 9
+--- !u!114 &114994870811238781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286341838007501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 0.63529414}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseWindow1
+--- !u!4 &4269999548410093
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949724549655717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 286, y: -269.0974, z: 0}
+  m_LocalScale: {x: 135.12502, y: 96.19999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 10
+--- !u!114 &114741474210687347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949724549655717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseRoof
+  mGradient:
+    mGradient1: {r: 0.09803922, g: 0.007843138, b: 0.011764706, a: 1}
+    mGradient2: {r: 0.14117648, g: 0.06666667, b: 0.14117648, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4586373366796245
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1433082274080570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.49603, y: -33.52527, z: 0}
+  m_LocalScale: {x: 52, y: 52, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 11
+--- !u!114 &114749441831668480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1433082274080570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 0.6509804}
+  mPivot: 4
+  mDepth: 2
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseWindow2
+--- !u!4 &4901745490334646
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1161684479293641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -218.39534, y: -333.01193, z: -0.00024414062}
+  m_LocalScale: {x: 50.912395, y: 94.994804, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 12
+--- !u!114 &114474166548978862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1161684479293641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 0.63529414}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseWindow1
+--- !u!4 &4330943726542534
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598016139153595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 125.92157, y: -370.39468, z: -0.00024414062}
+  m_LocalScale: {x: 37.787445, y: 70.50594, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801106964914675}
+  m_RootOrder: 13
+--- !u!114 &114832014180360679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598016139153595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 0.63529414}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_houseWindow1
+--- !u!4 &4429796985160197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1183364046185099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4597662937873223}
+  - {fileID: 4512151352855310}
+  - {fileID: 4911190105036807}
+  - {fileID: 4908162432505355}
+  m_Father: {fileID: 4949662236038961}
+  m_RootOrder: 2
+--- !u!4 &4597662937873223
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013007854838685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -359.7998, y: 62.296146, z: 1}
+  m_LocalScale: {x: 132.00026, y: 262.00012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4429796985160197}
+  m_RootOrder: 0
+--- !u!114 &114999235566802117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013007854838685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 2
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_web
+  mGradient:
+    mGradient1: {r: 1, g: 1, b: 1, a: 1}
+    mGradient2: {r: 0.52204025, g: 0.1873378, b: 0.77205884, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4512151352855310
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1268182541118358}
+  m_LocalRotation: {x: 0, y: 0, z: 0.99897057, w: 0.04536307}
+  m_LocalPosition: {x: 14.967545, y: 170.89899, z: 1}
+  m_LocalScale: {x: 132.00027, y: 262.00012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4429796985160197}
+  m_RootOrder: 1
+--- !u!114 &114147751808106111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1268182541118358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 2
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_web
+  mGradient:
+    mGradient1: {r: 1, g: 1, b: 1, a: 1}
+    mGradient2: {r: 0.52204025, g: 0.1873378, b: 0.77205884, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4911190105036807
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198477358740062}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9951151, w: 0.09872181}
+  m_LocalPosition: {x: -106.034386, y: -316.32477, z: 1}
+  m_LocalScale: {x: 101.02789, y: 200.52478, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4429796985160197}
+  m_RootOrder: 2
+--- !u!114 &114635667269467338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198477358740062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 0.6}
+  mPivot: 4
+  mDepth: 2
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_web
+  mGradient:
+    mGradient1: {r: 1, g: 1, b: 1, a: 1}
+    mGradient2: {r: 0.52204025, g: 0.1873378, b: 0.77205884, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4908162432505355
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944094375699176}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9913015, w: 0.1316109}
+  m_LocalPosition: {x: 358.96832, y: -94.05576, z: 1}
+  m_LocalScale: {x: 132, y: 262, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4429796985160197}
+  m_RootOrder: 3
+--- !u!114 &114498837908179774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944094375699176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f43e571673f766599f2acb9d9c266b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_web
+  mGradient:
+    mGradient1: {r: 1, g: 1, b: 1, a: 1}
+    mGradient2: {r: 0.52204025, g: 0.1873378, b: 0.77205884, a: 1}
+    mGradientAngle: 270
+--- !u!4 &4160134469664073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934520762132547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -161.68394, y: 392.75885, z: 13.170448}
+  m_LocalScale: {x: 250.76636, y: 251.62215, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4949662236038961}
+  m_RootOrder: 3
+--- !u!114 &114001295042194816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934520762132547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 2
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_moon
+--- !u!4 &4957842707830257
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031811044859376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -162.18394, y: 385.5094, z: -5.373596}
+  m_LocalScale: {x: 54, y: 93, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4949662236038961}
+  m_RootOrder: 4
+--- !u!114 &114265884712392281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031811044859376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 03f4d42008176954995504946f59ceb7, type: 2}
+  mTex: {fileID: 2800000, guid: ec5758d809a0a774eae424606e97639b, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114114111527848718, guid: 70d876cb83f088f4a9895d93572309fd, type: 2}
+  mSpriteName: ENV_hood_seasonHalloween_wolf
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1531709653269105}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

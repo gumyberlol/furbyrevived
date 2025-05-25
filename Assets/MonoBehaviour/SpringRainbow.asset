@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: SpringRainbow
+  m_EditorClassIdentifier:
+  m_adultType: 18
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 2af8ffc652449ab47a83cd20d586fe99, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyeColor: {fileID: 11400000, guid: 2e0700b4b7b526e4190750863126f25c, type: 2}
+    EarColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyelidColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    FurbySpriteName: CH_furbyAdult_SpringRainbow
+  m_tribe: {fileID: 11400000, guid: 23fb046b8ff9bd341b6694656270010d, type: 2}
+  m_LastIndex_MainTribes: 17
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 1200000011000000100000000f00000014000000130000000a00000008000000000000000600000002000000070000000300000009000000050000000b000000010000000400000018000000170000001500000016000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 87b43cc5ce5326e4b819cdfc11b9156d, type: 2}
+  - {fileID: 11400000, guid: 49401ab5b5636044bb69c0e06c4d6bf8, type: 2}
+  - {fileID: 11400000, guid: 0fbd843115db4cc40af975d2b1d3167f, type: 2}
+  - {fileID: 11400000, guid: ae1b5be50f447cb46a4d58ddb25040fc, type: 2}
+  - {fileID: 11400000, guid: dce0cd04e2391e94f9da69169763e277, type: 2}
+  - {fileID: 11400000, guid: 9a7e56989153bcb44a22c3210406d15d, type: 2}
+  - {fileID: 11400000, guid: e2b956f316f7ad547982ba09548d85d3, type: 2}
+  - {fileID: 11400000, guid: da6d05e44c4fa7c4cbbad62a3f36a0f1, type: 2}
+  m_maxFurbyBabiesOfType: 5

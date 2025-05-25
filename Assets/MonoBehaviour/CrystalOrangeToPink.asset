@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: CrystalOrangeToPink
+  m_EditorClassIdentifier:
+  m_adultType: 25
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 2af8ffc652449ab47a83cd20d586fe99, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyeColor: {fileID: 11400000, guid: 2e0700b4b7b526e4190750863126f25c, type: 2}
+    EarColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyelidColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    FurbySpriteName: CH_furbyAdult_Crystal_Orange_Pink
+  m_tribe: {fileID: 11400000, guid: 45b105e7e1db3e84eb00c5e6b6d1ca55, type: 2}
+  m_LastIndex_MainTribes: 23
+  m_LastIndex_Spring: 23
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 190000001a000000160000001500000018000000170000000a0000000800000000000000060000000b00000005000000020000000700000009000000030000000400000001000000100000000f00000012000000100000001400000013000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 6186b69a7e65fde41a98694b7b18b58d, type: 2}
+  - {fileID: 11400000, guid: 11051d10baac85f46bdbae86b88fdad9, type: 2}
+  - {fileID: 11400000, guid: 26a1aed02b9e6b742b74861b4fec1b65, type: 2}
+  - {fileID: 11400000, guid: 0895768c58ee3654a9e08efda8661cf2, type: 2}
+  - {fileID: 11400000, guid: daca54605a7282043a08546517cf458d, type: 2}
+  - {fileID: 11400000, guid: 2d37c13ae7732614db054b89dc716d0c, type: 2}
+  - {fileID: 11400000, guid: 7e359f5ce427e3c4db5b9430dae108c8, type: 2}
+  - {fileID: 11400000, guid: 8c686926211930249a05088c7fcd6817, type: 2}
+  m_maxFurbyBabiesOfType: 5

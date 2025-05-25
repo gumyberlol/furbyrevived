@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Zigzags
+  m_EditorClassIdentifier:
+  m_adultType: 11
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 2af8ffc652449ab47a83cd20d586fe99, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyeColor: {fileID: 11400000, guid: 2e0700b4b7b526e4190750863126f25c, type: 2}
+    EarColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EyelidColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    FurbySpriteName: CH_furbyAdult_Chevrons
+  m_tribe: {fileID: 11400000, guid: fa46b10739e220140ae342b2748ecb8a, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 0b0000000500000002000000070000000000000006000000080000000a00000003000000090000000400000001000000100000000f0000001300000014000000120000001100000016000000150000001800000017000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 35adaad062d4fec448265be7a55b6c59, type: 2}
+  - {fileID: 11400000, guid: d28061e63a79e444dae3d0725e2203f4, type: 2}
+  - {fileID: 11400000, guid: b5fd0900783fd50449a2752b5a3b422f, type: 2}
+  - {fileID: 11400000, guid: 95c3f399de35dfd48b5534cc5d6c6712, type: 2}
+  - {fileID: 11400000, guid: 5c8fbe1026f8a2248bb14833ab6dd813, type: 2}
+  - {fileID: 11400000, guid: e90ae192ac534774fa17bdfa18b4d565, type: 2}
+  - {fileID: 11400000, guid: 6361b852e7be7234381ebf3c2e0f3bc6, type: 2}
+  - {fileID: 11400000, guid: 9f08633e6d878a642912f11515b70496, type: 2}
+  m_maxFurbyBabiesOfType: 5

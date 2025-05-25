@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: Limit-Ed
+  m_EditorClassIdentifier:
+  m_name: Limit-Ed
+  m_parentA: 1
+  m_parentB: 13
+  m_tribeSet: 0
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: df758816ab02b374dbed51aa68d77e65, type: 2}
+    - {fileID: 11400000, guid: 2340629d0c2c509468a2dce68749d55e, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: f6590573e399ce543b1b08d721d950d9, type: 2}
+    - {fileID: 11400000, guid: 39b896ed077245d47be6e57daecb8588, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 5a57ff40fec96c449a6474a4226d7248, type: 2}
+    - {fileID: 11400000, guid: b15c799e000421248a469110808506e1, type: 2}
+    - {fileID: 11400000, guid: 89752529297c9b34090be8cd12e73d57, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 0406fec68098bea4089d3ac59ce6eb48, type: 2}
+  m_tribeCubemap: {fileID: 8900000, guid: d54046e0f70af2f48b19894a31fed21c, type: 3}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 4800000, guid: d9d30402df8f6c147bf0ebd654faafe2, type: 3}

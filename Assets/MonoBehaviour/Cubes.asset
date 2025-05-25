@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Cubes
+  m_EditorClassIdentifier:
+  m_adultType: 2
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 7e7e35e6371158b4ab5c626bae3eab14, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: 4c3525da0a7ec614896e53854b364b79, type: 2}
+    EyeColor: {fileID: 11400000, guid: d323137a3daadf5429270cf693c469b1, type: 2}
+    EarColor: {fileID: 11400000, guid: 4c3525da0a7ec614896e53854b364b79, type: 2}
+    EyelidColor: {fileID: 11400000, guid: 41837e4e08e73594abae298af47c1b63, type: 2}
+    FurbySpriteName: CH_furbyAdult_Cubes
+  m_tribe: {fileID: 11400000, guid: f7323188141316a49b973fc8a7646eab, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 020000000700000009000000030000000b00000005000000080000000a0000000600000000000000040000000100000013000000140000000f00000010000000110000001200000018000000170000001500000016000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: ae69b2a5e77d71c4ca18ce2029ff68c9, type: 2}
+  - {fileID: 11400000, guid: a11de5d349eb5ab419103370b2689751, type: 2}
+  - {fileID: 11400000, guid: 7af8199994804b34a967fca0aeb0d719, type: 2}
+  - {fileID: 11400000, guid: 46384cc1ecf7db54ba48b4c2dc543deb, type: 2}
+  - {fileID: 11400000, guid: 8ca16ada4d1832f46b6464e79284397f, type: 2}
+  - {fileID: 11400000, guid: 7c832989851d2784fa0e3ccc4d3b0129, type: 2}
+  - {fileID: 11400000, guid: 76b7a111cabe50e49ae4470a50396d54, type: 2}
+  - {fileID: 11400000, guid: 4f94e9cba8b6a7242a1aa5770535c888, type: 2}
+  m_maxFurbyBabiesOfType: 5

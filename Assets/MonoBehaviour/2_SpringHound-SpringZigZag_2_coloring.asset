@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 2_SpringHound-SpringZigZag_2_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: 96d5a2db22be64146ac860afb6408924, type: 3}
+  EggTexture: {fileID: 2800000, guid: 21f4dac59c01b1045a6f75495d683623, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 3785cf9b97ae0f445ba51d685a7d9ba0, type: 3}
+  tilingX: 1
+  tilingY: 1
