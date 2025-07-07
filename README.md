@@ -10,3 +10,4 @@ This decomp will be abandoned, due to my lack of knowledge of Unity. (game freez
 
 
 what else do i say? im not gonna continue working on this decomp.
+if hasbro doesnt like me doing this, they can contact me to remove this repository.
