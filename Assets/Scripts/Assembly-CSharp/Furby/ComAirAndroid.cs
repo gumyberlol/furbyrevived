@@ -202,8 +202,8 @@ namespace Furby
 
 		public static void ComAirSendEventActual(long code)
 		{
-			s_volume = Singleton<GameDataStoreObject>.Instance.GlobalData.CommsLevel;
-			s_comairJava.Call("PlayComAirCmd", code, s_volume);
+			s_volume = 0.5f; // or any safe volume level
+			// idk really what does this do anymore nothing works
 			s_sentCodes.Enqueue(code);
 			s_log.Enqueue(string.Format("---->>>> Sent code {0}", code));
 		}

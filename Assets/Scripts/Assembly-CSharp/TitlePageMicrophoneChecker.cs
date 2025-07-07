@@ -18,18 +18,21 @@ public class TitlePageMicrophoneChecker : MonoBehaviour
 
 	private IEnumerator Start()
 	{
-		m_ErrorBox.Hide();
-		yield return null;
-		if (IsMicrophoneDisabled())
-		{
-			float oldTimeScale = Time.timeScale;
-			Time.timeScale = 0f;
-			m_ErrorBox.SetOKState("FURBYCOMMSERROR_MICROPHONE", "MENU_OPTION_OK", CartonGameEvent.EggDialogGenericAccept);
-			m_ErrorBox.Show(true);
-			WaitForGameEvent waiter = new WaitForGameEvent();
-			yield return StartCoroutine(waiter.WaitForEvent(CartonGameEvent.EggDialogGenericAccept));
-			m_ErrorBox.Hide();
-			Time.timeScale = oldTimeScale;
-		}
+		/*
+		 *	m_ErrorBox.Hide();
+		 *	yield return null;
+		 *	if (IsMicrophoneDisabled())
+		 *	{
+		 *		float oldTimeScale = Time.timeScale;
+		 *		Time.timeScale = 0f;
+		 *		m_ErrorBox.SetOKState("FURBYCOMMSERROR_MICROPHONE", "MENU_OPTION_OK", CartonGameEvent.EggDialogGenericAccept);
+		 *		m_ErrorBox.Show(true);
+		 *		WaitForGameEvent waiter = new WaitForGameEvent();
+		 *		yield return StartCoroutine(waiter.WaitForEvent(CartonGameEvent.EggDialogGenericAccept));
+		 *		m_ErrorBox.Hide();
+		 *		Time.timeScale = oldTimeScale;
+	}
+	*/
+		yield break;
 	}
 }

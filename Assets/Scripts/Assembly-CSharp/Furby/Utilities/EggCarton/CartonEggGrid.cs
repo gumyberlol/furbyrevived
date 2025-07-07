@@ -1,6 +1,8 @@
 using System.Collections;
 using Relentless;
 using UnityEngine;
+using System.Linq;
+
 
 namespace Furby.Utilities.EggCarton
 {
@@ -39,20 +41,56 @@ namespace Furby.Utilities.EggCarton
 			SetComAirAutoConnect(true);
 		}
 
-		public void HandleEggEntrancing(bool shouldOnlyAddNewEggs)
+		public IEnumerator HandleEggEntrancing(bool shouldOnlyAddNewEggs)
+
 		{
 			bool flag = false;
+			Logging.Log("Checking for furby babies with progress E...");
+			var furbyBabies = FurbyGlobals.BabyRepositoryHelpers.GetBabiesOfProgress(FurbyBabyProgresss.E).ToList();
+
+			Logging.Log("Found " + furbyBabies.Count + " babies with progress E");
 			foreach (FurbyBaby item in FurbyGlobals.BabyRepositoryHelpers.GetBabiesOfProgress(FurbyBabyProgresss.E))
 			{
 				if ((!shouldOnlyAddNewEggs || item.m_persistantData.newToCarton) && FurbyGlobals.Player.InProgressFurbyBaby != item)
 				{
 					int num = FindEmptySlot();
+					if (num == -1)
+					{
+						Logging.LogError("❌ No empty egg slot found!");
+						yield break;
+					}
+
+
+					if (m_eggPrefab == null)
+					{
+						Logging.Log("m_eggPrefab is null!");
+						continue;
+					}
+
+					if (m_eggPositions[num] == null)
+					{
+						Logging.Log("m_eggPositions[" + num + "] is null!");
+
+						continue;
+					}
+					Logging.Log("Slot num: " + num);
+					Logging.Log("m_eggPrefab: " + m_eggPrefab);
+					Logging.Log("m_eggPositions[num]: " + m_eggPositions[num]);
+
+
 					GameObject gameObject = (GameObject)Object.Instantiate(m_eggPrefab);
 					gameObject.transform.parent = m_eggPositions[num];
 					gameObject.transform.localPosition = Vector3.zero;
 					gameObject.transform.localScale = Vector3.one;
 					gameObject.transform.localRotation = Quaternion.identity;
 					BabyInstance componentInChildren = gameObject.GetComponentInChildren<BabyInstance>();
+					if (componentInChildren == null)
+					{
+						Logging.Log("🟡 BabyInstance missing in instantiated egg at slot " + num + "!");
+						Logging.Log("🔍 Make sure the prefab has BabyInstance as a child.");
+						continue; // Skip this egg and keep going :3
+					}
+
 					gameObject.layer = base.gameObject.layer;
 					componentInChildren.SetTargetFurbyBaby(item);
 					componentInChildren.InstantiateObject();

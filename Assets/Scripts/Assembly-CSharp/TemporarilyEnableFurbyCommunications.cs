@@ -6,11 +6,11 @@ public class TemporarilyEnableFurbyCommunications : MonoBehaviour
 {
 	private void Start()
 	{
-		Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+		//hi
 	}
 
 	private void OnDestroy()
 	{
-		Singleton<FurbyDataChannel>.Instance.DisableCommunications = FurbyGlobals.Player.NoFurbyOnSaveGame();
+		// oh hello up there
 	}
 }

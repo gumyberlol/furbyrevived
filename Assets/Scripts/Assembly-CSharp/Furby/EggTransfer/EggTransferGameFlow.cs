@@ -38,7 +38,7 @@ namespace Furby.EggTransfer
 
 		public void Start()
 		{
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+			// no
 			GameEventRouter.AddDelegateForType(typeof(FurbyDataEvent), RecieveDataEvent);
 			if (FurbyGlobals.BabyRepositoryHelpers.EggCarton.Count() >= FurbyGlobals.BabyLibrary.GetMaxEggsInCarton())
 			{
@@ -69,7 +69,7 @@ namespace Furby.EggTransfer
 
 		public new void OnDestroy()
 		{
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = FurbyGlobals.Player.NoFurbyOnSaveGame();
+			// h
 			GameEventRouter.RemoveDelegateForType(typeof(FurbyDataEvent), RecieveDataEvent);
 			StopAllCoroutines();
 			base.OnDestroy();

@@ -136,7 +136,7 @@ namespace Furby.EggCarton
 
 		private void Start()
 		{
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+			// h
 			ResetFlow();
 		}
 
@@ -769,7 +769,7 @@ namespace Furby.EggCarton
 
 		private void OnDestroy()
 		{
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = FurbyGlobals.Player.NoFurbyOnSaveGame();
+			// s
 			m_DebugPanelSub.Dispose();
 			RemoveFurbyToneDelegate();
 		}

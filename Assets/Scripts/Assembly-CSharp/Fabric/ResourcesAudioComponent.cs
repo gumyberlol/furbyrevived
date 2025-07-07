@@ -450,36 +450,43 @@ namespace Fabric
 			CheckIsVirtual();
 			switch (_currentState)
 			{
-			case AudioComponentState.WaitingToPlay:
-				UpdatePosition();
-				if (_audioSourceGameObject != null)
-				{
-					_audioSourceGameObject.SetActive(true);
-				}
-				_audioSource.enabled = true;
-				_audioSource.Play((ulong)base.DelaySamples + (ulong)_delay);
-				_audioSource.volume = 0f;
-				_audioSource.pitch = 1f;
-				_currentState = AudioComponentState.Playing;
-				break;
-			case AudioComponentState.Playing:
-				if (!_audioSource.isPlaying)
-				{
-					StopInternal();
-				}
-				break;
-			case AudioComponentState.WaitingToStop:
-				if (_updateContext._fadeParameter == 0f)
-				{
-					StopInternal();
-				}
-				else if (_audioSource != null && !_audioSource.isPlaying)
-				{
-					StopInternal();
-				}
-				break;
+				case AudioComponentState.WaitingToPlay:
+					UpdatePosition();
+					if (_audioSourceGameObject != null)
+					{
+						_audioSourceGameObject.SetActive(true);
+					}
+					_audioSource.enabled = true;
+					_audioSource.Play((ulong)base.DelaySamples + (ulong)_delay);
+					// Removed line that forces volume to 0:
+					// _audioSource.volume = 0f;
+					_audioSource.pitch = 1f;
+					_currentState = AudioComponentState.Playing;
+					break;
+				case AudioComponentState.Playing:
+					if (!_audioSource.isPlaying)
+					{
+						StopInternal();
+					}
+					break;
+				case AudioComponentState.WaitingToStop:
+					if (_updateContext._fadeParameter == 0f)
+					{
+						StopInternal();
+					}
+					else if (_audioSource != null && !_audioSource.isPlaying)
+					{
+						StopInternal();
+					}
+					break;
 			}
-			UpdateProperties(context);
+
+			// Optional: skip UpdateProperties to avoid any dynamic volume reduction
+			// UpdateProperties(context);
+
+			// Force volume to 100%
+			_audioSource.volume = 1.0f;
+
 			_isComponentActive = false;
 			if (_componentInstances != null)
 			{
@@ -499,6 +506,7 @@ namespace Fabric
 			profiler.End();
 			return _isComponentActive;
 		}
+
 
 		private void UpdateProperties(Context context)
 		{

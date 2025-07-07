@@ -91,9 +91,12 @@ namespace Furby
 
 		private IEnumerator Apply()
 		{
+			Logging.Log("Apply() started!");
 			m_IsReadyToBeRendered = false;
+
 			if (m_baby)
 			{
+				Logging.Log("Disabling baby animations...");
 				Animation[] componentsInChildren = GetComponentsInChildren<Animation>(true);
 				foreach (Animation anim in componentsInChildren)
 				{
@@ -104,12 +107,19 @@ namespace Furby
 					}
 				}
 			}
+
 			if (m_baby)
 			{
+				Logging.Log("Starting flair instantiation...");
 				yield return StartCoroutine(InstantiateFlair());
+				Logging.Log("Finished flair instantiation.");
 			}
+
+			Logging.Log("Getting baby type info...");
 			BabyFurbyLibrary lib = FurbyGlobals.BabyLibrary;
 			FurbyBabyTypeInfo babyTypeInfo = lib.GetBabyFurby(m_targetBaby.Type);
+
+			Logging.Log("Setting up furby bit spec...");
 			Dictionary<string, GameObject> furbyBits = new Dictionary<string, GameObject>();
 			Dictionary<string, string> furbyBitSpec = new Dictionary<string, string>
 			{
@@ -128,14 +138,20 @@ namespace Furby
 				{ "FurblingEgg_bottom_GEO", "EggBottom" }
 			};
 			GetChildGameObjectsWithNames(base.gameObject, furbyBitSpec, furbyBits);
+
 			string assetBundleName = babyTypeInfo.GetColoringAssetBundleName();
-			Logging.Log("BabyInstance -> Instantiating " + babyTypeInfo.ToString() + "\n  Loading asset bundle: [" + assetBundleName + "]");
+			Logging.Log("Loading asset bundle: " + assetBundleName);
 			AssetBundleHelpers.AssetBundleLoad colourLoadingObject = new AssetBundleHelpers.AssetBundleLoad();
 			yield return StartCoroutine(AssetBundleHelpers.Load(assetBundleName, true, colourLoadingObject, base.gameObject, typeof(FurbyBabyColoring), true));
+
 			FurbyBabyColoring furbyBabyColour = (FurbyBabyColoring)colourLoadingObject.m_object;
+			Logging.Log("Finished loading asset bundle.");
+
 			FurbyBaby furbyBaby = GetTargetFurbyBaby();
+
 			if (!m_baby)
 			{
+				Logging.Log("Applying egg materials...");
 				Renderer[] componentsInChildren2 = GetComponentsInChildren<Renderer>(true);
 				foreach (Renderer renderer in componentsInChildren2)
 				{
@@ -150,6 +166,7 @@ namespace Furby
 			}
 			else
 			{
+				Logging.Log("Applying baby materials...");
 				if (furbyBabyColour != null && furbyBabyColour.BitsTexture != null)
 				{
 					foreach (string partValue in furbyBitSpec.Values)
@@ -166,6 +183,8 @@ namespace Furby
 				}
 				ApplyBit(furbyBits, "Fur", furbyBabyColour.FurTexture, furbyBabyColour.tilingX, furbyBabyColour.tilingY, null);
 			}
+
+			Logging.Log("Applying cubemaps...");
 			Renderer[] componentsInChildren3 = GetComponentsInChildren<Renderer>(true);
 			foreach (Renderer renderer2 in componentsInChildren3)
 			{
@@ -174,8 +193,10 @@ namespace Furby
 					renderer2.material.SetTexture("_CubeTex", m_targetBaby.Type.Tribe.Cubemap);
 				}
 			}
+
 			if (m_babyTypeLabel != null)
 			{
+				Logging.Log("Updating baby type label...");
 				if (m_targetBaby.Personality != FurbyBabyPersonality.None)
 				{
 					m_babyTypeLabel.text = m_targetBaby.Personality.ToString();
@@ -185,24 +206,32 @@ namespace Furby
 					m_babyTypeLabel.gameObject.SetActive(false);
 				}
 			}
+
 			if (m_baby)
 			{
+				Logging.Log("Adding eye + beak animation components...");
 				GameObject furbyBabyInstance = base.Instance;
 				FurbyEyeUvAnimator eyeAnimator = furbyBabyInstance.AddComponent<FurbyEyeUvAnimator>();
 				Transform eyeGEOL = furbyBabyInstance.transform.Find("furbyBaby_eyeL_GEO");
 				Transform eyeGEOR = furbyBabyInstance.transform.Find("furbyBaby_eyeR_GEO");
 				eyeAnimator.AssignEyeControllers(furbyBabyInstance.transform.Find("eyeLUV"), controllerTransformEyeR: furbyBabyInstance.transform.Find("eyeRUV"), modelEyeL: eyeGEOL.gameObject, modelEyeR: eyeGEOR.gameObject);
+
 				FurbyBeakSync beakSync = furbyBabyInstance.AddComponent<FurbyBeakSync>();
 				Transform beakTransformTop = furbyBabyInstance.transform.Find("CHAR_furbyBaby_ROOT/BodyUp_JNT/FaceBone_beakUp_JNT");
 				Transform beakTransformLow = furbyBabyInstance.transform.Find("CHAR_furbyBaby_ROOT/BodyUp_JNT/FaceBone_beakLow_JNT");
 				beakSync.AssignBeakControllers(beakTransformTop, beakTransformLow, m_beakSyncData, furbyBabyInstance.GetComponent<Animation>());
 			}
+
 			if (!m_hidden)
 			{
+				Logging.Log("Calling Show()");
 				Show();
 			}
+
 			m_IsReadyToBeRendered = true;
+			Logging.Log("Apply() finished successfully!");
 		}
+
 
 		public bool IsReadyToBeRendered()
 		{
@@ -255,16 +284,39 @@ namespace Furby
 
 		private void InternalInstantiateObject()
 		{
+			Logging.Log("📦 InternalInstantiateObject() called");
+
 			if (ModelPrefab == null || m_destoryOld)
 			{
+				Logging.Log("🧱 ModelPrefab is null or marked for destroy, grabbing tribe-specific prefab");
 				ModelPrefab = GetTribeSpecificPrefab(m_targetBaby.Tribe.TribeSet);
 			}
+			else
+			{
+				Logging.Log("✅ ModelPrefab already assigned: " + ModelPrefab.name);
+			}
+
+			Logging.Log("🚀 Instantiating object...");
 			base.InstantiateObject();
+
 			Hide();
 			m_hidden = m_hideOnStart;
-			base.Instance.GetComponent<Animation>().cullingType = AnimationCullingType.AlwaysAnimate;
+
+			Animation anim = base.Instance.GetComponent<Animation>();
+			if (anim != null)
+			{
+				anim.cullingType = AnimationCullingType.AlwaysAnimate;
+				Logging.Log("🎞️ Animation component found and updated");
+			}
+			else
+			{
+				Logging.Log("⚠️ No Animation component found!");
+			}
+
+			Logging.Log("📞 Starting Apply() coroutine...");
 			StartCoroutine(Apply());
 		}
+
 
 		public void Show()
 		{

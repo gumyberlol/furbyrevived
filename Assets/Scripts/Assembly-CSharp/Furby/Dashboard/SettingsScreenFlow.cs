@@ -216,7 +216,7 @@ namespace Furby.Dashboard
 
 		private void Start()
 		{
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = FurbyGlobals.Player.NoFurbyOnSaveGame();
+			// h
 			ResetFlow();
 		}
 
@@ -374,7 +374,7 @@ namespace Furby.Dashboard
 					break;
 				case SettingsPageEvents.ChangeUserButtonClicked:
 					FurbyGlobals.HardwareSettingsScreenFlow.SetIsControllingGlobalInGameVolume(true);
-					Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+					// h
 					GameEventRouter.SendEvent(SettingsPageEvents.SwitchToChangeUserScreen);
 					break;
 				case SettingsPageEvents.RestorePurchases:
@@ -612,7 +612,7 @@ namespace Furby.Dashboard
 				FurbyGlobals.Player.SetScannedFlag(false);
 				FurbyGlobals.SettingsHelper.RequestChangeFurby(Singleton<GameDataStoreObject>.Instance.Data.FurbyType, false);
 				Singleton<GameDataStoreObject>.Instance.Data.FurbyType = AdultFurbyType.Unknown;
-				Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+				// h
 				GameEventRouter.SendEvent(SettingsPageEvents.ConfirmChangeFurby);
 				break;
 			case SettingsPageEvents.GenericDialogCancel:
@@ -640,7 +640,7 @@ namespace Furby.Dashboard
 			{
 			case SettingsPageEvents.GenericDialogAccept:
 				Singleton<GameDataStoreObject>.Instance.Data.FurbyType = AdultFurbyType.NoFurby;
-				Singleton<FurbyDataChannel>.Instance.DisableCommunications = true;
+				// dont disable comair
 				Singleton<GameDataStoreObject>.Instance.Data.HasCompletedFirstTimeFlow = true;
 				GameEventRouter.SendEvent(SettingsPageEvents.ConfirmDowngrade);
 				break;
@@ -664,7 +664,7 @@ namespace Furby.Dashboard
 			{
 				FurbyGlobals.Player.SetScannedFlag(false);
 				Singleton<GameDataStoreObject>.Instance.Data.FurbyType = AdultFurbyType.Unknown;
-				Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+				// h
 				FurbyGlobals.SettingsHelper.RequestChangeFurby(AdultFurbyType.NoFurby, false);
 				GameEventRouter.SendEvent(SettingsPageEvents.ConfirmUpgrade);
 			}
@@ -694,7 +694,7 @@ namespace Furby.Dashboard
 				int saveIndex = Singleton<GameDataStoreObject>.Instance.GetCurrentSlotIndex();
 				Singleton<GameDataStoreObject>.Instance.Clear(saveIndex);
 				GameEventRouter.SendEvent(SettingsPageEvents.ConfirmDelete);
-				Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+				// h
 				break;
 			}
 			case SettingsPageEvents.GenericDialogCancel:

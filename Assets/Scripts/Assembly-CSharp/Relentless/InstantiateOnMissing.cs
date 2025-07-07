@@ -25,41 +25,71 @@ namespace Relentless
 
 		private void Awake()
 		{
-			string text = ((!(m_objectName == string.Empty)) ? m_objectName : m_prefab.name);
-			string text2 = string.Empty;
+			if (m_prefab == null)
+			{
+				Debug.LogWarning("InstantiateOnMissing: Missing prefab, skipping instantiation :3");
+				return;
+			}
+
+			string text = string.IsNullOrEmpty(m_objectName) ? m_prefab.name : m_objectName;
+			string text2 = "/";
 			switch (m_reparentTo)
 			{
-			case ReparentType.None:
-				text2 = "/";
-				break;
-			case ReparentType.This:
-				text2 = base.transform.GetPath();
-				break;
-			case ReparentType.Parent:
-				text2 = base.transform.parent.GetPath();
-				break;
-			}
-			GameObject gameObject = GameObject.Find(text2 + text);
-			if (!gameObject)
-			{
-				gameObject = ((!m_keepTransforms) ? ((GameObject)Object.Instantiate(m_prefab, base.transform.position, base.transform.rotation)) : ((GameObject)Object.Instantiate(m_prefab)));
-				gameObject.name = text;
-				Vector3 position = gameObject.transform.position;
-				Quaternion rotation = gameObject.transform.rotation;
-				switch (m_reparentTo)
-				{
 				case ReparentType.This:
-					gameObject.transform.parent = base.transform;
+					if (transform == null)
+					{
+						Debug.LogWarning("InstantiateOnMissing: 'This' reparent target is null, skipping.");
+						return;
+					}
+					text2 = transform.GetPath();
 					break;
 				case ReparentType.Parent:
-					gameObject.transform.parent = base.transform.parent;
+					if (transform.parent == null)
+					{
+						Debug.LogWarning("InstantiateOnMissing: Parent transform is missing, skipping.");
+						return;
+					}
+					text2 = transform.parent.GetPath();
 					break;
-				}
+			}
+
+			GameObject existing = GameObject.Find(text2 + text);
+			if (!existing)
+			{
+				GameObject instance;
 				if (m_keepTransforms)
 				{
-					gameObject.transform.position = position;
-					gameObject.transform.rotation = rotation;
+					instance = Instantiate(m_prefab);
 				}
+				else
+				{
+					instance = Instantiate(m_prefab, transform.position, transform.rotation);
+				}
+
+				instance.name = text;
+				Vector3 pos = instance.transform.position;
+				Quaternion rot = instance.transform.rotation;
+
+				switch (m_reparentTo)
+				{
+					case ReparentType.This:
+						instance.transform.parent = transform;
+						break;
+					case ReparentType.Parent:
+						instance.transform.parent = transform.parent;
+						break;
+				}
+
+				if (m_keepTransforms)
+				{
+					instance.transform.position = pos;
+					instance.transform.rotation = rot;
+				}
+				Debug.Log($"InstantiateOnMissing: Instantiated missing object '{text}' :3");
+			}
+			else
+			{
+				Debug.Log($"InstantiateOnMissing: Found existing '{text}', nothing to do :3");
 			}
 		}
 	}

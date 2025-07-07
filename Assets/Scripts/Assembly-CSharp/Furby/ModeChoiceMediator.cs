@@ -86,31 +86,17 @@ namespace Furby
 
 		private IEnumerator HandlePlayWithFurby()
 		{
-			if (TitlePageMicrophoneChecker.IsMicrophoneDisabled())
-			{
-				yield return StartCoroutine(ShowMicLockBlocker());
-				ResetFlow();
-				yield break;
-			}
+			// Skip microphone check completely :3
+
 			bool haveToy = false;
 			yield return StartCoroutine(ShowToyRequiredDialog(this, m_needFurbyDialog, m_scanningInstructions, m_dialogSpawnPoint, delegate(bool b)
 			{
 				haveToy = b;
 			}));
-			if (!haveToy)
-			{
-				ResetFlow();
-				yield break;
-			}
-			if (IsUpgradableGame())
-			{
-				FurbyGlobals.Player.SetScannedFlag(false);
-				Singleton<GameDataStoreObject>.Instance.Data.FurbyType = AdultFurbyType.Unknown;
-				Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
-				FurbyGlobals.SettingsHelper.RequestChangeFurby(AdultFurbyType.NoFurby, true);
-			}
-			GameEventRouter.SendEvent(FurbyModeChoice.GoToScanningScreen);
-		}
+
+			// You might want to do something with `haveToy` here later
+		} // <– CLOSE the method properly here :3
+		// thanks
 
 		private IEnumerator ShowMicLock(string contentKey)
 		{
@@ -191,7 +177,7 @@ namespace Furby
 				Singleton<GameDataStoreObject>.Instance.Data.NoFurbyUnlockType = validTypes[UnityEngine.Random.Range(0, validTypes.Length)];
 				Singleton<GameDataStoreObject>.Instance.Data.HasCompletedFirstTimeFlow = true;
 			}
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = true;
+			// h
 			GameEventRouter.SendEvent(FurbyModeChoice.GoToDashboard);
 		}
 

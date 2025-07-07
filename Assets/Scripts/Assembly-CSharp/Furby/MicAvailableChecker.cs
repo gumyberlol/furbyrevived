@@ -19,7 +19,7 @@ namespace Furby
 
 		public IEnumerator Check(Transform errorSpawnPoint, ResultHandler handler)
 		{
-			bool available = !TitlePageMicrophoneChecker.IsMicrophoneDisabled();
+			bool available = true;
 			if (!available)
 			{
 				IEnumerator i = ShowError(errorSpawnPoint);

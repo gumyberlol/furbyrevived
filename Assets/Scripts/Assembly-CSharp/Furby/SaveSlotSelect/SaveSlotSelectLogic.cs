@@ -58,7 +58,7 @@ namespace Furby.SaveSlotSelect
 			{
 				int num = (int)saveSlotSelectGameEvent;
 				Singleton<GameDataStoreObject>.Instance.SetSaveSlotIndex(num);
-				Singleton<FurbyDataChannel>.Instance.DisableCommunications = Singleton<GameDataStoreObject>.Instance.Data.NoFurbyMode;
+				// idk
 				if (!Singleton<GameDataStoreObject>.Instance.GetSlot(num).HasCompletedFirstTimeFlow)
 				{
 					Singleton<GameDataStoreObject>.Instance.Data.AudioVolume = Singleton<GameDataStoreObject>.Instance.GlobalData.GetPreSaveGameLoadAudioVolume();

@@ -111,18 +111,16 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 
 	private float GetHardwareVolume()
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			return s_HardwareSettingsJava.CallStatic<float>("_getHardwareVolume", new object[0]);
-		}
-		return s_FakeHardwareVolume;
+		Debug.Log("🎭 Lying about hardware volume... it's totally 100%!");
+		return 1f; // Even if it's 0% IRL 😈
 	}
+
 
 	private void SetHardwareVolume(float volume)
 	{
 		if (Application.platform == RuntimePlatform.Android)
 		{
-			s_HardwareSettingsJava.CallStatic("_setHardwareVolume", volume);
+			// dont force the volume i wanna play furby boom at 2 am without having loud sounds
 		}
 		else
 		{
@@ -132,12 +130,9 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 
 	private bool AreHeadphonesPluggedIn()
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			return s_HardwareSettingsJava.CallStatic<bool>("_areHeadphonesPluggedIn", new object[0]);
-		}
-		return s_FakeHeadphonesIn;
+		return false; // lie to the whole game: no headphones here ever :3
 	}
+
 
 	private void HidePanelImmediately(GameObject panel)
 	{
@@ -153,6 +148,9 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 
 	private void Start()
 	{
+		m_VolumeMeterPanel.SetActive(false);
+		m_HeadphonesInPanel.SetActive(false);
+
 		if (Application.platform == RuntimePlatform.Android)
 		{
 			s_HardwareSettingsJava = new AndroidJavaClass("generalplus.com.GPLib.HardwareSettings");
@@ -168,7 +166,7 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 		HidePanelImmediately(m_VolumeMeterPanel);
 		StartCoroutine(PollHeadphoneStatus());
 		StartCoroutine(PollHardwareVolume());
-		StartCoroutine(WaitForUnacceptableHardwareStatus());
+		// idk
 	}
 
 	public void SetIsControllingGlobalInGameVolume(bool isControllingGlobalVolume)
@@ -206,30 +204,8 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 
 	private IEnumerator PollHardwareVolume()
 	{
-		bool sentHardwareVolumeIsTooLow = false;
-		bool sentHardwareVolumeIsOK = false;
-		while (true)
-		{
-			float hardwareVolume = GetHardwareVolume();
-			if (hardwareVolume < m_HardwareVolumeTolerance && !sentHardwareVolumeIsTooLow)
-			{
-				GameEventRouter.SendEvent(HardwareSettingsEvents.HardwareVolumeIsTooLow);
-			}
-			else if (hardwareVolume >= m_HardwareVolumeTolerance && !sentHardwareVolumeIsOK)
-			{
-				GameEventRouter.SendEvent(HardwareSettingsEvents.HardwareVolumeIsOK);
-			}
-			float waitTime = 1f;
-			float lastTime = Time.realtimeSinceStartup;
-			while (waitTime >= 0f)
-			{
-				yield return null;
-				float newTime = Time.realtimeSinceStartup;
-				float deltaTime = newTime - lastTime;
-				lastTime = newTime;
-				waitTime -= deltaTime;
-			}
-		}
+		Debug.Log("💥 PollHardwareVolume disabled!");
+		yield break;
 	}
 
 	private void PauseGame()
@@ -306,55 +282,19 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 
 	private IEnumerator WaitForAcceptableHeadphoneStatus()
 	{
-		GameEventRouter.SendEvent(HardwareSettingsEvents.ShowHeadphonesDialog);
-		ShowPanelImmediately(m_HeadphonesInPanel);
-		WaitForGameEvent waiter = new WaitForGameEvent();
-		yield return StartCoroutine(waiter.WaitForEvent(HardwareSettingsEvents.HeadphonesAreNOTPluggedIn));
-		GameEventRouter.SendEvent(HardwareSettingsEvents.HideHeadphonesDialog);
-		HidePanelImmediately(m_HeadphonesInPanel);
-		UnpauseGame();
-		StartCoroutine(WaitForUnacceptableHardwareStatus());
+		yield break; // skip it completely
 	}
+
 
 	private IEnumerator WaitForAcceptableHardwareVolume()
 	{
-		GameEventRouter.SendEvent(HardwareSettingsEvents.ShowTheVolumeMeters);
-		ShowPanelImmediately(m_VolumeMeterPanel);
-		m_HardwareVolumeMeter.SetShouldPoll(true);
-		m_InGameVolumeSlider.SyncSliderValueToSavedValue();
-		WaitForGameEvent waiter = new WaitForGameEvent();
-		yield return StartCoroutine(waiter.WaitForEvent(HardwareSettingsEvents.HardwareVolumeIsOK, HardwareSettingsEvents.HeadphonesArePluggedIn));
-		GameEventRouter.SendEvent(HardwareSettingsEvents.HideTheVolumeMeters);
-		HidePanelImmediately(m_VolumeMeterPanel);
-		m_VolumeMeterPanel.SetActive(false);
-		VolumeSlider[] volumeSliders = UnityEngine.Object.FindObjectsOfType(typeof(VolumeSlider)) as VolumeSlider[];
-		VolumeSlider[] array = volumeSliders;
-		foreach (VolumeSlider volumeSlider in array)
-		{
-			if (volumeSlider != null)
-			{
-				volumeSlider.SyncSliderValueToSavedValue();
-			}
-		}
-		switch ((HardwareSettingsEvents)(object)waiter.ReturnedEvent)
-		{
-		case HardwareSettingsEvents.HeadphonesArePluggedIn:
-			StartCoroutine(WaitForAcceptableHeadphoneStatus());
-			break;
-		case HardwareSettingsEvents.HardwareVolumeIsOK:
-			UnpauseGame();
-			StartCoroutine(WaitForUnacceptableHardwareStatus());
-			break;
-		}
+		yield break; // also skip
 	}
+
 
 	public void UpdateMeterFromHardwareVolume()
 	{
-		float hardwareVolume = GetHardwareVolume();
-		if (hardwareVolume != m_HardwareVolumeSlider.sliderValue)
-		{
-			m_HardwareVolumeSlider.sliderValue = hardwareVolume;
-		}
+		m_HardwareVolumeSlider.sliderValue = 1f; // totally real. very legit. 💅
 	}
 
 	public void UpdateHardwareVolumeFromMeter()
@@ -365,4 +305,19 @@ public class HardwareSettingsScreenFlow : MonoBehaviour
 			SetHardwareVolume(m_HardwareVolumeSlider.sliderValue);
 		}
 	}
+
+	private void Update()
+	{
+		if (m_VolumeMeterPanel.activeSelf)
+		{
+			Debug.Log("💀 Blocking VolumeMeterPanel...");
+			m_VolumeMeterPanel.SetActive(false);
+		}
+		if (m_HeadphonesInPanel.activeSelf)
+		{
+			Debug.Log("💀 Blocking HeadphonesInPanel...");
+			m_HeadphonesInPanel.SetActive(false);
+		}
+	}
+
 }

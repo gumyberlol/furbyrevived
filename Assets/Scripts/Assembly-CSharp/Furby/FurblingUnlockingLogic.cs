@@ -110,7 +110,7 @@ namespace Furby
 
 		private void PrepareToReceiveComAir()
 		{
-			Singleton<FurbyDataChannel>.Instance.DisableCommunications = false;
+			// idk
 			Singleton<FurbyDataChannel>.Instance.AutoConnect = false;
 			ComAirChannel.ComAirTick += OnReceiveComAirToneCallback;
 			m_ReceivedTone = -1L;
